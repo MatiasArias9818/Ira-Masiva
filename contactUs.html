@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us | Ira Masiva | Official Web</title>
   </head>
+
   <body>
     <header>
       <h1>Ira Masiva</h1>
@@ -22,6 +23,8 @@
       </nav>
     </header>
 
+    <hr />
+
     <div class="contenedor">
       <form action="">
         <div class="form-header">
@@ -31,39 +34,37 @@
         <label for="name" class="form-label">Name:</label>
         <input
           type="text"
+          class="form-input"
           id="name"
-          class="form-input"
-          placeholder="Type your name"
+          placeholder="Type your name..."
         />
-      </form>
 
-     <label for="lastname" class="form-label">Last Name:</label>
+        <label for="surname" class="form-label">Surname:</label>
         <input
           type="text"
-          id="lastname"
           class="form-input"
-          placeholder="Type your Last name"
+          id="surname"
+          placeholder="Type your Surname..."
         />
-      </form>
 
-      <label for="email" class="form-label">E-Mail:</label>
+        <label for="email" class="form-label">E-mail:</label>
         <input
           type="text"
+          class="form-input"
           id="email"
-          class="form-input"
-          placeholder="E-Mail Adress"
+          placeholder="Type you E-mail Address..."
         />
-      </form>
 
-      <label for="message" class="form-label">Your Message:</label>
-        <input
-          textarea
+        <label for="message" class="form-label">Your Message:</label>
+        <textarea
           id="message"
-          class="form-input"
-          placeholder="Type Here"
-        />
-      </form>
+          cols="30"
+          rows="10"
+          placeholder="Type your Message..."
+        ></textarea>
 
+        <input type="submit" class="btn-submit" value="Send" />
+      </form>
     </div>
 
     <hr />
@@ -72,6 +73,5 @@
       <div>Social Media</div>
       <div>Since 2021</div>
     </footer>
-
   </body>
 </html>
