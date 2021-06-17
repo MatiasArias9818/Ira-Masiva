@@ -5,73 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us | Ira Masiva | Official Web</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Ira Masiva</h1>
+    <div class="agrupar">
+      <header>
+        <h1>Ira Masiva</h1>
+
+        <hr />
+
+        <nav class="menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutUs.html">About Us</a></li>
+            <li><a href="./ofMerch.html">Official Merch</a></li>
+            <li>Contact Us</li>
+          </ul>
+        </nav>
+      </header>
 
       <hr />
 
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./aboutUs.html">About Us</a></li>
-          <li><a href="./ofMerch.html">Official Merch</a></li>
-          <li>Contact Us</li>
-        </ul>
-      </nav>
-    </header>
+      <section>
+        <div class="contenedor">
+          <form action="" class="form">
+            <div class="form-header">
+              <h1 class="form-title">Contact Us</h1>
+            </div>
 
-    <hr />
+            <label for="name" class="form-label">Name:</label>
+            <input
+              type="text"
+              class="form-input"
+              id="name"
+              placeholder="Type your name..."
+            />
 
-    <div class="contenedor">
-      <form action="">
-        <div class="form-header">
-          <h1 class="form-title">Contact Us</h1>
+            <label for="surname" class="form-label">Surname:</label>
+            <input
+              type="text"
+              class="form-input"
+              id="surname"
+              placeholder="Type your Surname..."
+            />
+
+            <label for="email" class="form-label">E-mail:</label>
+            <input
+              type="text"
+              class="form-input"
+              id="email"
+              placeholder="Type you E-mail Address..."
+            />
+
+            <label for="message" class="form-textarea">Your Message:</label>
+            <textarea
+              id="form-textarea"
+              placeholder="Type your Message..."
+            ></textarea>
+
+            <input type="submit" class="btn-submit" value="Send" />
+          </form>
         </div>
+      </section>
 
-        <label for="name" class="form-label">Name:</label>
-        <input
-          type="text"
-          class="form-input"
-          id="name"
-          placeholder="Type your name..."
-        />
+      <hr />
 
-        <label for="surname" class="form-label">Surname:</label>
-        <input
-          type="text"
-          class="form-input"
-          id="surname"
-          placeholder="Type your Surname..."
-        />
-
-        <label for="email" class="form-label">E-mail:</label>
-        <input
-          type="text"
-          class="form-input"
-          id="email"
-          placeholder="Type you E-mail Address..."
-        />
-
-        <label for="message" class="form-label">Your Message:</label>
-        <textarea
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="Type your Message..."
-        ></textarea>
-
-        <input type="submit" class="btn-submit" value="Send" />
-      </form>
+      <footer>
+        <div>Social Media</div>
+        <div>Since 2021</div>
+      </footer>
     </div>
-
-    <hr />
-
-    <footer>
-      <div>Social Media</div>
-      <div>Since 2021</div>
-    </footer>
   </body>
 </html>
