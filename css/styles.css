@@ -25,6 +25,9 @@ body {
 a {
   color: #d63031;
 }
+a:hover {
+  color: rgb(109, 2, 2);
+}
 
 footer {
   text-align: center;
