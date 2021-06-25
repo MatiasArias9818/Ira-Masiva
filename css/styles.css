@@ -1,4 +1,4 @@
-.agrupar {
+.group {
   background-color: #2d3436;
   color: #dfe6e9;
   border: 1px solid #b2bec3;
@@ -39,7 +39,7 @@ img {
   margin: 50px auto;
 }
 
-.contenedor,
+.container,
 .form,
 .form-header,
 .form-title {
@@ -50,9 +50,9 @@ img {
   color: #d63031;
 }
 
-.contenedor,
+.container,
 .form {
-  background: rgba(0, 0, 0, 0.6);
+  background: black;
   width: 90%;
   max-width: 650px;
   margin: auto;
@@ -62,7 +62,7 @@ img {
   border-radius: 3px;
 }
 
-.contenedor,
+.container,
 .form,
 .form-label {
   display: block;
@@ -70,7 +70,7 @@ img {
   position: relative;
 }
 
-.contenedor,
+.container,
 .form,
 .form-input,
 .form-textarea #message {
