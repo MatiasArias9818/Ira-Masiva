@@ -8,7 +8,8 @@
   padding: 20px;
 }
 
-.menu {
+.menu,
+.ytvideo {
   justify-content: center;
   display: flex;
   width: auto;
