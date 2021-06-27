@@ -20,6 +20,9 @@
   width: 26%;
   float: left;
 }
+.shop {
+  width: auto;
+}
 
 .section {
   margin: 20px;
