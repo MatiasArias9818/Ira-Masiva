@@ -14,12 +14,26 @@
 }
 
 .sectiona {
-  margin: 25px;
-  padding: 20px;
   border: 1px solid #b2bec3;
-  width: 26%;
-  float: left;
 }
+
+.sectiona:hover {
+  background-color: #d63031;
+}
+
+.flex-container {
+  justify-content: center;
+  display: flex;
+  width: auto;
+}
+
+.flex-container div {
+  width: auto;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
 .shop {
   width: 100%;
 }
